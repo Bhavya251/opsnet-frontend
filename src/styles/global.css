@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Lombok';
+    src: url('../assets/fonts/Lombok-Regular.ttf') format('.ttf');
+  }
+  
+  @font-face {
+    font-family: 'Anurati';
+    src: url('../assets/fonts/Anurati-Regular.otf') format('.ttf');
+  }
+
+  @font-face {
+    font-family: 'Blanka';
+    src: url('../assets/fonts/Blanka.otf') format('.ttf');
+  }
+
+  @font-face {
+    font-family: 'Elianto';
+    src: url('../assets/fonts/Elianto-Regular.ttf') format('.ttf');
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'OpsNetMain', sans-serif;
+  }
+  
+  .app-container {
+    min-height: 100vh;
+    transition: all 0.3s ease;
+  }
+  
+  /* Add more global styles as needed */
